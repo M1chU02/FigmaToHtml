@@ -390,3 +390,31 @@ section p {
   position: absolute;
   right: 0;
 }
+
+.app-section {
+  text-align: center;
+}
+
+.app-section .app-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 24px;
+}
+
+.app-section .app-btn {
+  padding: 16px 30px;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 310px;
+}
+
+.app-section .app-btn span {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
